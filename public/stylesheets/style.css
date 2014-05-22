@@ -6,9 +6,15 @@
   margin-bottom: 19px;
 }
 
+#minecraft-image {
+  width: 200px;
+  float: left;
+}
+
 .page-title {
-  font-size: 24px;
-  padding-bottom:9px;
+  font-size:24px;
+  margin-top: 10px;
+  margin-left: 10px; 
 }
 
 .page-desc {
