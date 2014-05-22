@@ -1,44 +1,16 @@
-/* style.css
- * This file provides css styles.
- */
-
-body {
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+#minecraft-data-table {
+  width: 800px;
+  height: 200px;
+  border: 1px solid black;
+  margin-bottom: 20px;
 }
 
-h1, h2, h3 {
-	text-align: center;
+#console {
+  width: 800px;
+  height: 200px;
+  border: 1px solid black;
 }
 
-table {
-	table-layout: fixed;
-	width: 800px;
-	margin: 0 auto;
-	word-wrap: break-word;
-	font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+.no-data-cell {
+  text-align: center;
 }
-
-th {
-	border-bottom: 1px solid #000;
-}
-
-th, td {
-	text-align: left;
-	padding: 2px 20px;
-}
-
-.env-var {
-	text-align: right;
-	border-right: 1px solid #000;
-	width: 30%;
-}
-
-pre {
-	padding: 0;
-	margin: 0;
-}
-
-tr:hover td {
-	background-color: #DDF2F9;
-}
-
