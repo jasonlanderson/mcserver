@@ -1,16 +1,104 @@
+/*
+ * Page Information
+ */
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.page-title {
+  font-size: 24px;
+  padding-bottom:9px;
+}
+
+.page-desc {
+  font-size: 20 px;
+  margin-bottom: 25px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Adding to the nav-pills */
+.nav-pills {
+  font-size: 24px;
+}
+
+.x-icon {
+  font-size: 16px;
+  color: red;
+}
+
+.console-icon {
+  font-size: 16px;
+  color: blue;
+}
+
+/*
+ * Minecraft Server Table
+ */
+
+table, th, td {
+  border: 1px solid black;
+}
+
 #minecraft-data-table {
   width: 800px;
-  height: 200px;
-  border: 1px solid black;
   margin-bottom: 20px;
 }
+
+#minecraft-data-table-title {
+  display:inline;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size:20px;
+}
+
+#minecraft-data-table td {
+  padding-left: 10px;
+}
+
+#minecraft-data-table th {
+  font-weight: bold;
+  padding-left: 10px;
+  height: 30px;
+  background-color: #dddddd;
+}
+
+.no-data-cell {
+  text-align: center;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.server-running {
+  color: green;
+}
+
+.server-starting {
+  color: orange;
+}
+
+
+#add-server-button {
+  font-size: 16 px;
+}
+
+
+/*
+ * Minecraft Server Console
+ */
 
 #console {
   width: 800px;
   height: 200px;
   border: 1px solid black;
-}
+  overflow:scroll;
+  margin-bottom: 25px;
 
-.no-data-cell {
-  text-align: center;
 }

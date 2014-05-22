@@ -1,19 +1,41 @@
-<h2>Minecraft Server Manager</h2>
+<!-- Static navbar -->
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Minecraft Server Manager</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
 
-This application deploys and manages minecraft servers.
+<div class="container">
+  <div class="page-desc">This application deploys and manages minecraft servers.</div>
 
-<script type="text/javascript">
-  $(function() {
-    addMinecraftServer();
-  });
-</script>
+  <div id="minecraft-data-table-title">Deployed Minecraft Servers</div> (<a href="#" id="add-server-button">Start a new server</a>)
+  <table id="minecraft-data-table">
+    <tr>
+      <th>Server Name</th>
+      <th>Host / IP</th>
+      <th># of Users</th>
+      <th>Status</th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td colspan="6" class="no-data-cell">There are no servers currently deployed...</td>
+    </tr>
+  </table>
 
-<table id="minecraft-data-table">
-  <tr>
-    <td class="no-data-cell">There are no servers currently deployed</td>
-  </tr>
-</table>
-
-<div id="console">
+  <div id="minecraft-data-table-title">Minecraft Server Console</div>
+  <div id="console">
+    
+  </div>
   
+  <div class="footer">
+    <p>Awesome Apps &copy; 2014</p>
+  </div>
 </div>
